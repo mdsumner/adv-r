@@ -208,7 +208,7 @@ rm("a", envir = e)
 ls(e)
 ```
 
-You can determine if a binding exists in an environment with `exists()`. Like `get()`, its default behaviour is to follow the regular scoping rules and look in parent environments. If you don't want this behavior, use `inherits = FALSE`:
+You can determine if a binding exists in an environment with `exists()`. Like `get()`, its default behaviour is to follow the regular scoping rules and look in parent environments. If you don't want this behaviour, use `inherits = FALSE`:
 
 ```{r}
 x <- 10

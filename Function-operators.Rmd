@@ -572,7 +572,7 @@ It's also possible to make a major change to a function's input, making a functi
     magical performance improvements, but it's useful if you want a quick and 
     dirty way of making a vectorised function. \indexc{Vectorize()}
 
-    A mildly useful extension to `sample()` would be to vectorize it with 
+    A mildly useful extension to `sample()` would be to vectorise it with 
     respect to size. Doing so would allow you to generate multiple samples in 
     one call. \indexc{sample()}
 
